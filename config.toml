@@ -1,40 +1,40 @@
-languageCode = "en-us"
+languageCode = "de-de"
 title = "ArtCommissions-SabrinaFrank"
 baseurl = "http://ArtCommissions-SabrinaFrank.XY/"
 theme = ""
 
 [params]
   name = "Sabrina Frank"
-  description = "Artist & M.Sc. Biomedicin Student"
-  copyright = "Untitled."
+  description = "Künstlerin & M.Sc. Biomedizin Studentin"
+  copyright = "Creative Commons Licence - Hugo Theme: Prologue - Edited by: Sabrina Frank"
 
 
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "#"
+  link = "https://www.facebook.com/ArtCommissionsSabrinaFrank/?ref=py_c"
 
 [[params.social]]
   medium = "github"
   icon = "github"
-  link = "#"
+  link = "https://github.com/SabiFrank"
 
 
 [[params.social]]
   medium = "email"
   icon = "envelope"
-  link = "#"
+  link = "frank.sabrina.95@gmail.com"
 
 # Portfolio column one
 
 [[params.portfolio1]]
-  title = "Ipsum Feugiat"
+  title = "Titel"
   alt = ""
   source = "img/pic02.jpg"
   url = "#"
 
 [[params.portfolio1]]
-  title = "Rhoncus Semper"
+  title = "Titel"
   alt = ""
   source = "img/pic03.jpg"
   url = "#"
@@ -42,13 +42,13 @@ theme = ""
 # Portfolio column two
 
 [[params.portfolio2]]
-  title = "Magna Nullam"
+  title = "Titel"
   alt = ""
   source = "img/pic04.jpg"
   url = "#"
 
 [[params.portfolio2]]
-  title = "Natoque Vitae"
+  title = "Titel"
   alt = ""
   source = "img/pic05.jpg"
   url = "#"
@@ -56,13 +56,13 @@ theme = ""
 # Portfolio column 3
 
 [[params.portfolio3]]
-  title = "Dolor Penatibus"
+  title = "Titel"
   alt = ""
   source = "img/pic06.jpg"
   url = "#"
 
 [[params.portfolio3]]
-  title = "Orci Convallis"
+  title = "Titel"
   alt = ""
   source = "img/pic07.jpg"
   url = "#"

@@ -8,11 +8,27 @@
 	<head>
 		<title>{{ .Title }}</title>
 		<meta charset="utf-8" />
+
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Ich nehme Auftragsarbeiten für Portraitzeichnungen und Skizzen an. Auf dieser Seite können sie mein Portfolio einsehen.">
+		<meta name="author"      content="Sabrina Frank">
+		<meta name="robots"      content="all">
+		<meta name="expires"	 content="tue, 01 Jun 2050">
+		<meta name="keywords"	 content="Kunst, Auftragsarbeiten, Bleistiftzeichnungen, Portraits, Sabrina Frank">
+		<meta name="revisit-after" content="1 month">
+		<meta name="copyright"	 content="Sabrina Frank">
+		<meta name="page-topic"	 content="Kunst, Auftragsarbeiten">
+		<meta name="audience" 	 content="all">
+		
+		<link rel="apple-touch-icon" href="img/AppleTouchIcon.png" sizes="144x144"/>
+		<link rel="shortcut icon" href="img/android-icon.png" sizes="196x196">
+	
 		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/lightbox.css">
+		
 	</head>
 	<body>
 
@@ -23,7 +39,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="img/avatar.jpg" alt="Logo von ArtCommissions-Sabrina Frank" /></span>
 							<h1 id="title">{{ .Site.Params.name }}</h1>
 							<p>{{ .Site.Params.description }}</p>
 						</div>
@@ -44,10 +60,10 @@
 
 							-->
 							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home" title="Seite Bewegt sich zum Abschnitt Intro">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th" title="Seite Bewegt sich zum Abschnitt Portfolio">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user" title="Seite Bewegt sich zum Abschnitt Über mich">Über mich</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope" title="Seite Bewegt sich zum Abschnitt Kontakt">Kontakt</span></a></li>
 							</ul>
 						</nav>
 
@@ -58,7 +74,7 @@
 					<!-- Social Icons -->
 						<ul class="icons">
               {{ range .Site.Params.social }}
-              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label" title="Weiterleitung auf die entsprechende externe Social Media Site">{{ .medium }}</span></a></li>
               {{ end }}
 						</ul>
 
@@ -77,7 +93,7 @@
 								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
 								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
 								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								keine Ahnunggggn</p>
 							</header>
 
 							<footer>
@@ -95,10 +111,8 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>Hier finden Sie einige meiner Werke mit Titel und verwendeter Technik. Klicken Sie ein Bild an, um es zu vergrößern.
+							</p>
 
 
               <div class="row">
@@ -145,17 +159,15 @@
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Über mich</h2>
 							</header>
 
 							<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p>Mein Name ist Sabrina Frank und ich bin M.Sc. Biomedizin-Studentin, die in ihrer freien Zeit gerne zeichnet. Ich übe mich seit circa 8 Jahren in Portraitzeichnungen mit Bleistift auf Papier
+							und zeichne schon seit meiner Kindheit. Neben realistischen Gesichtern und Tieren sind Mangas (japanische Comicfiguren) meine große Passion, wie an einigen Werken in meinem Portfolio zu erkennen.
+							Schwerpunktmäßig zeichne ich Lebewesen, vor allem Menschen und Hunde, bin aber bereit und freue mich auch neue Techniken für Landschaften und Texturen von Gegenständen zu erlernen.
+							</p>
 
 						</div>
 					</section>
@@ -165,25 +177,22 @@
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2>Kontakt</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<p>Wenn Sie eine Zeichnung bei mir in Auftrag geben wollen, Fragen haben oder konstruktive Kritik und Anregungen zu meiner Arbeit äußern wollen, können Sie mich mit dem untenstehenden Formular jederzeit kontaktieren.</p>
 
 							<form method="post" action="#">
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="E-Mail" /></div>
 									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Nachricht"></textarea>
 									</div>
 									<div class="12u$">
-										<input type="submit" value="Send Message" />
+										<input type="submit" value="Sende Nachricht" />
 									</div>
-								</div>
+								</div>								
 							</form>
 
 						</div>
@@ -198,7 +207,28 @@
 					<ul class="copyright">
 						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
 					</ul>
-
+								
+					<div class="copyright">
+						<h3>Impressum</h3><br>
+						<p>	<a href="mailto:sabrina.frank.95@gamil.com" title="Weiterleitung zu einem E-Mail Programm für das Erstellen Ihrer Nachricht">sabrina.frank.95@gmail.com</a><br>
+							Heilbronner Straße 16<br>
+							74382 Neckarwestheim
+						</p>
+					</div>
+					
+					<div class="copyright">
+						<h3>Kunstressourcen auf Art-Res</h3><br>
+						<p> Sie suchen mehr Inspiration und Tipps zum Thema Kunst? Dann sind Sie bei
+						<a href="https://artres.xyz" title="Weiterleitung zu der externen Website Art-Res.xyz">Art-Res.xyz</a> genau richtig!
+						</p>
+					</div>
+					
+					<div class="copyright">
+						<h3>Datenschutz</h3><br>
+						<p> Diese Website nutzt Cookies, um bestmögliche Funktionalität bieten zu können. Mit dem Besuch dieser Seite erlauben Sie automatisch den Gebrauch von Cookies (<a href="https://dsgvo-gesetz.de/art-95-dsgvo/" title="Weiterleitung zu der externen Website dsgvo-gesetz.de">Mehr Informationen</a>).
+						</p>
+					</div>
+					
 			</div>
 
 		<!-- Scripts -->

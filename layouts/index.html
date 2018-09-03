@@ -204,10 +204,6 @@
 			<div id="footer">
 
 				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
-					</ul>
-								
 					<div class="copyright">
 						<h3>Impressum</h3><br>
 						<p>	<a href="mailto:sabrina.frank.95@gamil.com" title="Weiterleitung zu einem E-Mail Programm für das Erstellen Ihrer Nachricht">sabrina.frank.95@gmail.com</a><br>
@@ -223,18 +219,23 @@
 						</p>
 					</div>
 					
-					<div class="copyright">
-						<h3>Datenschutz</h3><br>
-						<p> Diese Website nutzt Cookies, um bestmögliche Funktionalität bieten zu können. Mit dem Besuch dieser Seite erlauben Sie automatisch den Gebrauch von Cookies (<a href="https://dsgvo-gesetz.de/art-95-dsgvo/" title="Weiterleitung zu der externen Website dsgvo-gesetz.de">Mehr Informationen</a>).
-						</p>
-					</div>
+					<ul class="copyright">
+						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+					</ul>
 					
+					
+			</div>
+			
+			<div id="cookieConsent">
+				<div id="closeCookieConsent">x</div>
+				Diese Webseite verwendet Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Weitere Informationen zu Cookies erhalten Sie <a href="https://dsgvo-gesetz.de/art-95-dsgvo/" title="Weiterleitung zu der externen Website dsgvo-gesetz.de">hier</a>. <a class="cookieConsentOK"></a>
 			</div>
 
 		<!-- Scripts -->
 			<script src="/js/jquery.min.js"></script>
 			<script src="/js/jquery.scrolly.min.js"></script>
 			<script src="/js/jquery.scrollzer.min.js"></script>
+			<script src="/js/jquery.cookie.js"></script>
 			<script src="/js/skel.min.js"></script>
 			<script src="/js/util.js"></script>
 			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->

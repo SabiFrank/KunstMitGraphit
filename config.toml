@@ -1,6 +1,6 @@
 languageCode = "de-de"
 title = "ArtCommissions-SabrinaFrank"
-baseurl = "http://ArtCommissions-SabrinaFrank.de/"
+baseurl = "https://ArtCommissions-SabrinaFrank.de/"
 theme = ""
 
 [params]

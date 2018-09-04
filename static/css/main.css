@@ -1592,6 +1592,10 @@
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			color: #333;
 		}
+		
+	h1 {font-size: 2.5em;
+		letter-spacing: -1px;
+	}
 
 	h2 {
 		font-size: 2em;

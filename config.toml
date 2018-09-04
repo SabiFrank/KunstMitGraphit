@@ -23,7 +23,7 @@ theme = ""
 [[params.social]]
   medium = "email"
   icon = "envelope"
-  link = "frank.sabrina.95@gmail.com"
+  link = "mailto:sabrina.frank.95@gmail.com"
 
 # Portfolio column one
 

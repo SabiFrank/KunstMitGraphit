@@ -40,12 +40,6 @@ theme = ""
   url = "#"
   
 [[params.portfolio1]]
-  title = "Teru"
-  alt = "Portrait des Gitarristen Teru der Band Versailles"
-  source = "img/03.jpg"
-  url = "#"
-  
-[[params.portfolio1]]
   title = "Finnick Odair"
   alt = "Portrait des Schauspielers Sam Claflin als Finnick Odair aus dem Film Hunger Games"
   source = "img/04.jpg"
@@ -135,12 +129,6 @@ theme = ""
   title = "Anatomy"
   alt = "Anatomy"
   source = "img/16.jpg"
-  url = "#"
-  
-[[params.portfolio2]]
-  title = "Dragonhunter"
-  alt = "Dragonhunter"
-  source = "img/17.jpg"
   url = "#"
   
 [[params.portfolio2]]

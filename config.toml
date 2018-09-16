@@ -80,12 +80,6 @@ theme = ""
   alt = "Portrait 3"
   source = "img/010.jpg"
   url = "#"
-  
-[[params.portfolio1]]
-  title = "Portrait 4"
-  alt = "Portrait 4"
-  source = "img/011.jpg"
-  url = "#"
 
 # Portfolio column two
 
@@ -197,4 +191,10 @@ theme = ""
   title = "Winter"
   alt = "Winter"
   source = "img/119.jpg"
+  url = "#"
+  
+[[params.portfolio3]]
+  title = "Portrait 4"
+  alt = "Portrait 4"
+  source = "img/011.jpg"
   url = "#"

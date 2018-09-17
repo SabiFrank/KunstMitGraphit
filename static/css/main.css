@@ -2565,10 +2565,10 @@
 	
 /*Cookie Consent Begin*/
 #cookieConsent {
-    background-color: rgba(192,192,192,0.3);
+    background-color: rgba(0,0,0,0.9);
     min-height: 26px;
     font-size: 14px;
-    color: #222222;
+    color: #fafafa;
     line-height: 26px;
     padding: 8px 0 8px 30px;
     font-family: "Trebuchet MS",Helvetica,sans-serif;

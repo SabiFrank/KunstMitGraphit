@@ -199,8 +199,8 @@ theme = ""
   source = "img/119.jpg"
   url = "#"
   
-[[params.portfolio3]]
-  title = "Portrait 5"
-  alt = "Portrait 5"
-  source = "img/012.jpg"
-  url = "#"
+#[[params.portfolio3]]
+#  title = "Portrait 5"
+#  alt = "Portrait 5"
+#  source = "img/012.jpg"
+#  url = "#"

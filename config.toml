@@ -3,6 +3,28 @@ title = "ArtCommissions-SabrinaFrank -Portfoliowebsite-"
 baseurl = "https://www.ArtCommissions-SabrinaFrank.de/"
 theme = ""
 
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = true
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+    simple = true
+  [privacy.youtube]
+    disable = true
+    privacyEnhanced = true
+
 [params]
   name = "Sabrina Frank"
   description = "Künstlerin & Studentin"

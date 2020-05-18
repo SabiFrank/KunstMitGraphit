@@ -53,7 +53,6 @@ theme = ""
   title = "Mark Tremonti"
   alt = "Portrait des Gitarristen Mark Tremonti der Band Alter Bridge"
   source = "img/01.jpg"
-  url = "#"
 
 [[params.portfolio1]]
   title = "Iron Man"

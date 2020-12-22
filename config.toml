@@ -52,12 +52,13 @@ theme = ""
   title = "Mark Tremonti"
   alt = "Portrait depicting the guitarist Mark Tremonti (Alter Bridge)"
   source = "img/01.jpg"
+  url = ""
 
 [[params.portfolio1]]
   title = "Iron Man"
   alt = "Portrait depicting the actor Robert Downey Jr. as Iron Man"
   source = "img/02.jpg"
-  url = "#"
+  url = ""
   
 [[params.portfolio1]]
   title = "Finnick Odair"

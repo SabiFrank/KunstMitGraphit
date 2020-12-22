@@ -81,9 +81,9 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-              {{ range .Site.Params.social }}
-              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label" title="Weiterleitung auf die entsprechende externe Social Media Site">{{ .medium }}</span></a></li>
-              {{ end }}
+						      {{ range .Site.Params.social }}
+						      <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label" title="Weiterleitung auf die entsprechende externe Social Media Site">{{ .medium }}</span></a></li>
+						      {{ end }}
 						</ul>
 				</div>
 			</div>
@@ -123,7 +123,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio1 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
@@ -134,7 +134,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio2 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
@@ -145,7 +145,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio3 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>

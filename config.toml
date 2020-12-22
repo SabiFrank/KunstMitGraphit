@@ -1,5 +1,5 @@
-languageCode = "de-de"
-title = "ArtCommissions-SabrinaFrank -Portfoliowebsite-"
+languageCode = "en-en"
+title = "ArtCommissions-SabrinaFrank -Portfolio-"
 baseurl = "https://www.ArtCommissions-SabrinaFrank.de/"
 theme = ""
 
@@ -27,8 +27,8 @@ theme = ""
 
 [params]
   name = "Sabrina Frank"
-  description = "Künstlerin & Studentin"
-  copyright = "Creative Commons Licence - Hugo Theme: Prologue - Edited by: Sabrina Frank"
+  description = "Graphite & Paper"
+  copyright = "Creative Commons Licence | Hugo Theme: Prologue | Edited by: Sabrina Frank"
 
 
 [[params.social]]
@@ -41,7 +41,6 @@ theme = ""
   icon = "github"
   link = "https://github.com/SabiFrank"
 
-
 [[params.social]]
   medium = "email"
   icon = "envelope"
@@ -51,36 +50,36 @@ theme = ""
 
 [[params.portfolio1]]
   title = "Mark Tremonti"
-  alt = "Portrait des Gitarristen Mark Tremonti der Band Alter Bridge"
+  alt = "Portrait depicting the guitarist Mark Tremonti (Alter Bridge)"
   source = "img/01.jpg"
 
 [[params.portfolio1]]
   title = "Iron Man"
-  alt = "Portrait des Schauspielers Robert Downey Jr. als Iron Man"
+  alt = "Portrait depicting the actor Robert Downey Jr. as Iron Man"
   source = "img/02.jpg"
   url = "#"
   
 [[params.portfolio1]]
   title = "Finnick Odair"
-  alt = "Portrait des Schauspielers Sam Claflin als Finnick Odair aus dem Film Hunger Games"
+  alt = "Portrait depicting the actor Sam Claflin as Finnick Odair (Hunger Games)"
   source = "img/04.jpg"
   url = "#"
   
 [[params.portfolio1]]
   title = "Sherlock Holmes"
-  alt = "Portrait des Schauspielers Benedict Cumberbatch als Sherlock Holmes"
+  alt = "Portrait depicting the actor Benedict Cumberbatch as Sherlock Holmes"
   source = "img/05.jpg"
   url = "#"
   
 [[params.portfolio1]]
-  title = "Familienportrait 1"
-  alt = "Familienportrait 1"
+  title = "Family portrait 1"
+  alt = "Family portrait 1"
   source = "img/06.jpg"
   url = "#"
   
 [[params.portfolio1]]
-  title = "Hundeportrait"
-  alt = "Hundeportrait"
+  title = "Dogs"
+  alt = "Dogs"
   source = "img/07.jpg"
   url = "#"
   
@@ -106,6 +105,12 @@ theme = ""
   title = "Portrait 4"
   alt = "Portrait 4"
   source = "img/011.jpg"
+  url = "#"
+  
+[[params.portfolio1]]
+  title = "Portrait 5"
+  alt = "Portrait 5"
+  source = "img/012.jpg"
   url = "#"
 
 # Portfolio column two
@@ -135,8 +140,8 @@ theme = ""
   url = "#"
   
 [[params.portfolio2]]
-  title = "Nixe"
-  alt = "Nixe"
+  title = "Mermaid"
+  alt = "Mermaid"
   source = "img/14.jpg"
   url = "#"
   
@@ -219,9 +224,4 @@ theme = ""
   alt = "Winter"
   source = "img/119.jpg"
   url = "#"
-  
-[[params.portfolio3]]
-  title = "Portrait 5"
-  alt = "Portrait 5"
-  source = "img/012.jpg"
-  url = "#"
+ 

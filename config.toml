@@ -105,7 +105,7 @@ theme = ""
 [[params.portfolio1]]
   title = "Portrait 4"
   alt = "Portrait 4"
-  source = "img/011.jpg"
+  source = "img/011.png"
   url = "#"
   
 [[params.portfolio1]]
@@ -169,6 +169,13 @@ theme = ""
   alt = "Dreaming"
   source = "img/19.jpg"
   url = "#"
+    
+[[params.portfolio2]]
+  title = "Eye"
+  alt = "Eye"
+  source = "img/120.png"
+  url = "#"
+  
   
 # Portfolio column 3
  
@@ -225,4 +232,15 @@ theme = ""
   alt = "Winter"
   source = "img/119.jpg"
   url = "#"
- 
+  
+  [[params.portfolio3]]
+  title = "Red Rage"
+  alt = "Red Rage"
+  source = "img/1120.png"
+  url = "#"
+  
+  [[params.portfolio3]]
+  title = "Third Eye - Emptiness"
+  alt = "Third Eye - Emptiness"
+  source = "img/1121.png"
+  url = "#"

@@ -1,4 +1,4 @@
-languageCode = "en"
+languageCode = "de"
 title = "KunstMitGraphit -Portfolio-"
 baseurl = "https://www.kunstmitgraphit.de/"
 theme = ""
@@ -27,7 +27,7 @@ theme = ""
 
 [params]
   name = "Sabrina Frank - KunstMitGraphit"
-  description = "Graphite & Paper"
+  description = "Graphit & Papier"
   copyright = "Creative Commons Licence | Hugo Theme: Prologue | Edited by: Sabrina Frank"
 
 
@@ -55,31 +55,31 @@ theme = ""
 
 [[params.portfolio1]]
   title = "Mark Tremonti"
-  alt = "Portrait depicting the guitarist Mark Tremonti (Alter Bridge)"
+  alt = "Portrait des Gitarristen Mark Tremonti (Alter Bridge)"
   source = "img/01.jpg"
   url = ""
 
 [[params.portfolio1]]
   title = "Iron Man"
-  alt = "Portrait depicting the actor Robert Downey Jr. as Iron Man"
+  alt = "Portrait des Schauspielers Robert Downey Jr. als Iron Man"
   source = "img/02.jpg"
   url = ""
   
 [[params.portfolio1]]
   title = "Finnick Odair"
-  alt = "Portrait depicting the actor Sam Claflin as Finnick Odair (Hunger Games)"
+  alt = "Portrait des Schauspielers Sam Claflin als Finnick Odair (Hunger Games)"
   source = "img/04.jpg"
   url = "#"
   
 [[params.portfolio1]]
   title = "Sherlock Holmes"
-  alt = "Portrait depicting the actor Benedict Cumberbatch as Sherlock Holmes"
+  alt = "Portrait des Schauspielers Benedict Cumberbatch als Sherlock Holmes"
   source = "img/05.jpg"
   url = "#"
   
 [[params.portfolio1]]
-  title = "Family portrait 1"
-  alt = "Family portrait 1"
+  title = "Familienportrait 1"
+  alt = "Familienportrait 1"
   source = "img/06.jpg"
   url = "#"
   
@@ -158,8 +158,8 @@ theme = ""
   url = "#"
   
 [[params.portfolio2]]
-  title = "Anatomy"
-  alt = "Anatomy"
+  title = "Anatomie"
+  alt = "Anatomie"
   source = "img/16.jpg"
   url = "#"
   

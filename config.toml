@@ -1,6 +1,6 @@
 languageCode = "en-en"
-title = "ArtCommissions-SabrinaFrank -Portfolio-"
-baseurl = "https://www.ArtCommissions-SabrinaFrank.de/"
+title = "KunstMitGraphit -Portfolio-"
+baseurl = "https://www.KunstMitGraphit.de/"
 theme = ""
 
 [privacy]
@@ -30,6 +30,11 @@ theme = ""
   description = "Graphite & Paper"
   copyright = "Creative Commons Licence | Hugo Theme: Prologue | Edited by: Sabrina Frank"
 
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil4c3J1dHyAhVWhP0HHeNGCbwQFnoECAIQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fkunstmitgraphit%2F&usg=AOvVaw103cwRaf757wHbk43BxAyj"
 
 [[params.social]]
   medium = "facebook"

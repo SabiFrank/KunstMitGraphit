@@ -19,7 +19,7 @@
 		<base href="https://www.kunstmitgraphit.de/">
 		<meta charset="utf-8" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport"    content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Diese Website ist ein Portfolio, um meine besten Zeichnungen zu zeigen. Zeit, Liebe zum Detail sowie Papier und Bleistift ermöglichen meine Arbeit.">
 		<meta name="author"      content="Sabrina Frank">
 		<meta name="robots"      content="all">
@@ -61,11 +61,9 @@
 								Prologue's nav expects links in one of two formats:
 
 								1. Hash link (scrolls to a different section within the page)
-
 								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
 								2. Standard link (sends the user to another page/site)
-
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 							-->
 							<ul>
@@ -113,49 +111,47 @@
 					<section id="portfolio" class="two">
 						<div class="container">
 
-							<header>
-								<h2>Portfolio</h2>
-							</header>
+						      <header>
+							<h2>Portfolio</h2>
+						      </header>
 
-							<p></p>
+						      <p></p>
 
+						      <div class="row">
+							<div class="4u 12u$(mobile)">
+							  {{ range .Site.Params.portfolio1 }} 
+							  <article class="item">
+							    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
+							    <header>
+							      <h3>{{ .title }}</h3>
+							    </header>
+							  </article>
+							  {{ end }}
+							</div>
 
-              <div class="row">
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio1 }} 
-                  <article class="item">
-                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+							<div class="4u 12u$(mobile)">
+							  {{ range .Site.Params.portfolio2 }} 
+							  <article class="item">
+							    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
+							    <header>
+							      <h3>{{ .title }}</h3>
+							    </header>
+							  </article>
+							  {{ end }}
+							</div>
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio2 }} 
-                  <article class="item">
-                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio3 }} 
-                  <article class="item">
-                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-              </div>
-
-
+							<div class="4u 12u$(mobile)">
+							  {{ range .Site.Params.portfolio3 }} 
+							  <article class="item">
+							    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a> <!-- href="{{ .url }}" -->
+							    <header>
+							      <h3>{{ .title }}</h3>
+							    </header>
+							  </article>
+							  {{ end }}
+							</div>
+						      </div>
+							
 						</div>
 					</section>
 
@@ -185,7 +181,7 @@
 					</section>
 
 				<!-- Contact -->
-					<!-- <section id="contact" class="four">
+				   <!-- <section id="contact" class="four">
 						<div class="container">
 
 							<header>
@@ -209,7 +205,7 @@
 									</div>
 								</div>								
 							</form>
-						<br>
+						   <br>
 						</div>
 					</section> -->
 
@@ -222,7 +218,7 @@
 				<section id="impressum" class="five">
 					<div class="copyright">
 					<h3>Impressum</h3>
-						<div class='impressum' style: "margin=20px;">
+						<div class='impressum' style= "margin: 20px;">
 							<p>Information gemäß § 5 TMG <br>
 								Sabrina Frank <br> 
 								Heilbronner Straße 16<br> 
